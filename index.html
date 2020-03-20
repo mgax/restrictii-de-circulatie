@@ -44,14 +44,24 @@ function rendermap(geojson, table) {
     var code = props.WB_A2;
     var color = 'lightgrey';
     if(table[code]) {
-      var status = table[code].status;
+      var row = table[code]
+      var status = row.status;
       color = colorMap[status] || 'grey';
+      props.popupText = '<h1>'+row.name+'</h1><p>'+row.description+'</p>'
     }
     props.color = color;
     countries.features.push(feature);
   });
 
-  var geoJsonLayer = L.geoJson(countries, {style: style}).addTo(map);
+  var geoJsonLayer = L.geoJson(countries, {
+    style: style,
+    onEachFeature: (feature, layer) => {
+      var props = feature.properties;
+      if(props.popupText) {
+        layer.bindPopup(props.popupText);
+      }
+    }
+  }).addTo(map);
 
   map.fitBounds([[34, -28], [74, 45]]);
 }
