@@ -33,46 +33,30 @@ function rendermap(geojson, table) {
       };
   }
 
-  var map = L.map('map'); //.setView([51.505, -0.09], 13);
-
-  // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  //     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  // }).addTo(map);
-
-
+  var map = L.map('map');
 
   var countries = {
     type: "FeatureCollection",
     features: []
   };
   geojson.features.map((feature) => {
-    //var style = styleFor(feature);
     var props = feature.properties;
-    if(props.SOV_A3==='NOR') props.WB_A2 = 'NO';
     var code = props.WB_A2;
-    if(! table[code]) return;
-    var status = table[code].status;
-    delete table[code];
-    var color = colorMap[status] || 'grey';
+    var color = 'lightgrey';
+    if(table[code]) {
+      var status = table[code].status;
+      color = colorMap[status] || 'grey';
+    }
     props.color = color;
     countries.features.push(feature);
   });
-  console.log(table);
 
-  console.log(countries);
   var geoJsonLayer = L.geoJson(countries, {style: style}).addTo(map);
 
-  // map.fitBounds(geoJsonLayer.getBounds());
-  /// map.fitBounds([[-28, 34], [45, 74]]);
   map.fitBounds([[34, -28], [74, 45]]);
-
-  // L.marker([51.5, -0.09]).addTo(map)
-  //     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-  //     .openPopup();
 }
 
 var csvUrl = './restrictii.csv';
-// var csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQtcZMmKHmwf_YXXCoiicFOor1XhAv1wLqUdNG92rIFfC8efe_uvCqBSaN3bUlS_p_19w9d0DcRIcHM/pub?gid=0&single=true&output=csv';
 
 fetch('./countries.json')
   .then((res) => res.json())
