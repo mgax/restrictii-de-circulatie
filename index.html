@@ -64,6 +64,18 @@ function rendermap(geojson, table) {
     return '(necunoscut)'
   }
 
+  var iconFile = {
+    aerian: "icons/plane.svg",
+    maritim: "icons/ship.svg",
+    terestru: "icons/car.svg",
+  };
+
+  function icon(kind, row, br) {
+    var value = row[kind];
+    if(value == "0") return ""
+    return ' <span class="icon '+iconClass(value)+'"><img src="' + iconFile[kind] + '"></span> <span class="icon-description">'+iconTitle(value)+'</span>' + (br ? "<br>" : "");
+  }
+
   var map = L.map('map');
 
   var countries = {
@@ -78,11 +90,8 @@ function rendermap(geojson, table) {
       var row = table[code]
       var status = row.status;
       color = colorMap[status] || 'grey';
-      var icons
-        = ' <span class="icon '+iconClass(row.aerian)+'"><img src="icons/plane.svg"></span> <span class="icon-description">'+iconTitle(row.aerian)+'</span><br>'
-        + ' <span class="icon '+iconClass(row.maritim)+'"><img src="icons/ship.svg"></span> <span class="icon-description">'+iconTitle(row.maritim)+'</span><br>'
-        + ' <span class="icon '+iconClass(row.terestru)+'"><img src="icons/car.svg"></span> <span class="icon-description">'+iconTitle(row.terestru)+'</span>'
       var text = '<h1>'+row.name+'</h1>';
+      var icons = icon('aerian', row, true) + icon('maritim', row, true) + icon('terestru', row);
       text += '<p class="icons">'+icons+'</p>';
       if (row.excepții) text += '<p>Excepții: '+row.excepții+'</p>';
       props.popupText = text
