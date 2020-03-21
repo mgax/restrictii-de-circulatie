@@ -64,19 +64,27 @@ Cei care caută protecție internațională",,Luxemburg
 MK,închis,0,închis,"E interzisă intrarea în țară, dar cetățenii români se pot întoarce prin punctele de frontieră care nu au fost închise complet",,Macedonia de Nord
 MT,restricționat,restricționat,0,"Sunt suspendate cursele aeriene și navale de transport de pasageri dinspre și înspre: Italia, Franța, Germania, Elveția și Spania.",,Malta
 ME,închis,închis,închis,Transportatorii de mărfuri,,Muntenegru
-NO,închis,închis,închis,"Aeroporturile sunt încă deschise pentru a permite cetățenilor străini să poată pleca. Toate granițele sunt închise pentru cetățenii străini. 
+NO,închis,N/A,închis,"Aeroporturile sunt încă deschise pentru a permite cetățenilor străini să poată pleca. Toate granițele sunt închise pentru cetățenii străini. 
 Sunt menținute cursele aeriene interne",,Norvegia
-PL,,,,,,Polonia
-PT,,,,,,Portugalia
-GB,,,,,,Regatul Unit al Marii Britanii şi Irlandei de Nord
-MD,,,,,,Republica Moldova
+PL,închis,0,restricționat,"Transporturile de marfă
+Granița cu Germania este deschisă, dar pot intra doar polonezii sau rezidenții. ",,Polonia
+PT,închis,,închis,"Excepții de zbor pentru Canada, Statele Unite ale Americii, Venezuela și Africa de Sud.
+Navele de croazieră și iahturile pot acosta doar în cazuri justificate
+Transport de mărfuri, transport lucrători traansfrontalieri",,Portugalia
+GB,deschis,deschis,deschis,Guvernul a sfătuit cetățenii să nu călătorească decât dacă e esențial,,Regatul Unit al Marii Britanii şi Irlandei de Nord
+MD,închis,0,închis,"Permis tranzitul
+Transport de mărfuri
+Echipaje aeronave/nave/tren
+Diplomați, membri ai organizațiilor internaționale",,Republica Moldova
 RO,,,,,,România
-YF,,,,,,Serbia
-SK,,,,,,Slovacia
-SI,,,,,,Slovenia
-ES,,,,,,Spania
-SE,,,,,,Suedia
-TR,,,,,,Turcia
+YF,închis,0,închis,Transport de mărfuri,,Serbia
+SK,închis,0,închis,"Cetățeni slovaci sau străini cu domiciliu/reședință temporară. 
+Transport de mărfuri",,Slovacia
+SI,închis,,restricționat,"Aeronavele care transportă mărfuri/poștă, fără pasageri, sau zborurile străine sau aflate în misiuni umanitare.
+Cetățenii străini pot intra în Slovenia dacă prezintă un certificat COVID-19 valabil trei zile, emis de autoritățile sanitare italiene în italiană, engleză sau slovenă.",,Slovenia
+ES,,,restricționat,Numai cetățenii spanioli sau cei cu rezidența în Spania au voie să treacă frontiera în Spania.,,Spania
+SE,sporadic,,,HELP,,Suedia
+TR,,închis,închis,,,Turcia
 NL,,,,,,Regatul Ţărilor de Jos
 UA,,,,,,Ucraina
 HU,restrictionat,N/A,restrictionat,,,Ungaria
