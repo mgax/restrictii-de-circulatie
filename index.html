@@ -136,9 +136,9 @@ function rendermap(geojson, table) {
   legend.onAdd = function (map) {
     var div = L.DomUtil.create('div', 'legend');
     div.innerHTML =
-        '<i style="background:' + colorMap[1] + '"></i> Închis<br>'
+        '<i style="background:' + colorMap[1] + '"></i> Deschis<br>'
       + '<i style="background:' + colorMap[2] + '"></i> Restricționat<br>'
-      + '<i style="background:' + colorMap[3] + '"></i> Deschis<br>';
+      + '<i style="background:' + colorMap[3] + '"></i> Închis<br>';
     return div;
   };
   legend.addTo(map);
