@@ -50,13 +50,22 @@ LV,închis,închis,închis,"Transportatori de marfă dacă nu prezintă simptome
 Pasageri ai aeronavelor de stat sau ai transporturilor militare
 Navigatorii care se întorc în Letonia sau către locul de muncă
 ",,Letonia
-LI,,,,,,Liechtenstein
-LT,,,,,,Lituania
-LU,,,,,,Luxemburg
-MK,,,,,,Macedonia de Nord
-MT,,,,,,Malta
-ME,,,,,,Muntenegru
-NO,,,,,,Norvegia
+LI,0,0,restricționat,N/A,,Liechtenstein
+LT,închis,0,închis,"Transportatori de marfă 
+Acces permis persoanelor cu drept de ședere, diplomați, personal NATO
+Acces permis rezidenților
+Permisă tranzitarea pentru întoarcerea în țara de reședință până la 23.03.2020
+Doar tranzit feroviar fără oprire permis din 23.03.2020",,Lituania
+LU,restricționat,0,restricționat,"Rezidenți, transportatori de mărfuri sau persoan
+Personal medical, cei care lucrează transfrontalier
+Diplomații, personalul organizațiilor internaționale
+Pasagerii în tranzit, cei care călătoresc pentru urgențe sau motive familiale justificate
+Cei care caută protecție internațională",,Luxemburg
+MK,închis,0,închis,"E interzisă intrarea în țară, dar cetățenii români se pot întoarce prin punctele de frontieră care nu au fost închise complet",,Macedonia de Nord
+MT,restricționat,restricționat,0,"Sunt suspendate cursele aeriene și navale de transport de pasageri dinspre și înspre: Italia, Franța, Germania, Elveția și Spania.",,Malta
+ME,închis,închis,închis,Transportatorii de mărfuri,,Muntenegru
+NO,închis,închis,închis,"Aeroporturile sunt încă deschise pentru a permite cetățenilor străini să poată pleca. Toate granițele sunt închise pentru cetățenii străini. 
+Sunt menținute cursele aeriene interne",,Norvegia
 PL,,,,,,Polonia
 PT,,,,,,Portugalia
 GB,,,,,,Regatul Unit al Marii Britanii şi Irlandei de Nord
