@@ -34,9 +34,9 @@ h1, p.icons { margin: 0 }
 
 function rendermap(geojson, table) {
   var colorMap = {
-    'closed': 'red',
-    'restricted': 'orange',
-    'open': 'green',
+    '3': '#2788d9',
+    '2': '#5693c6',
+    '1': '#7a9ab5',
   };
 
   function style(feature) {
@@ -87,9 +87,10 @@ function rendermap(geojson, table) {
     var code = props.WB_A2;
     var color = 'lightgrey';
     if(table[code]) {
-      var row = table[code]
-      var status = row.status;
-      color = colorMap[status] || 'grey';
+      var row = table[code];
+      console.log(row);
+      var colorCode = row['Culoare harta'];
+      color = colorMap[colorCode] || 'grey';
       var text = '<h1>'+row.name+'</h1>';
       var icons = icon('aerian', row, true) + icon('maritim', row, true) + icon('terestru', row);
       text += '<p class="icons">'+icons+'</p>';
