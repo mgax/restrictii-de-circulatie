@@ -1,90 +1,92 @@
 code,aerian,maritim,terestru,excepții,Culoare harta,name
-AL,sporadic,închis,închis,Transport de mărfuri (uscat și maritim),,Albania
-AT,restricționat,0,restrictionat,"Transport de mărfuri, echipaje zbor, zboruri de urgență, urgență, repatriere sau de traansfer",,Austria
-BE,sporadic,N/A,restricționat,"Călătoriile în afara țarii, dacă nu sunt indispensabile",,Belgia
+AL,restricționat,închis,închis,Transport de mărfuri (uscat și maritim),3,Albania
+AT,restricționat,0,restrictionat,"Transport de mărfuri, echipaje zbor, zboruri de urgență, urgență, repatriere sau de traansfer",2,Austria
+BE,sporadic,N/A,restricționat,"Călătoriile în afara țarii, dacă nu sunt indispensabile",2,Belgia
 BA,restricționat,0,restricționat,"Acces refuzat cetățenilor din China (provincia Wuhan), Coreea de Sud, Italia, Japonia, Iran, Franța, Germania, Austria, Belgia, Elveția, România
-Permis: Transport mărfuri, diplomați, personal medical și aviatic. ",,Bosnia şi Herţegovina
+Permis: Transport mărfuri, diplomați, personal medical și aviatic. ",2,Bosnia şi Herţegovina
 BG,închis,N/A,închis,"Diplomați, personal medical și aviatic, personal organizații internaționale
 Cetățeni Bulgaria care se întorc acasă
 Transport de mărfuri ( cu interdicție pentru Iran)
-Tranzit permis pentru cetățenii care se deplasează spre state în care trăiesc sau locuiesc.",,Bulgaria
+Tranzit permis pentru cetățenii care se deplasează spre state în care trăiesc sau locuiesc.",3,Bulgaria
 CZ,închis,,închis,"Permisă intrarea și ieșirea cetățenilor cehi și străini (cu rezidență) fără posibilitatea de întoarcere. 
-Permisă intrarea/ieșirea transportatorilor, echipajelor de zbor, echipajelor feroviare, a echipajelor de nave și a celor de întreținere a drumurilor. ",,Cehia
-CY,restricționat,,,"Zborurile din 28 de țări, printre care și România au fost interzise cu excepția celor cargo.  
-Permis accesul: diplomați, personal medical și aviatic, personal organizații internaționale, cetățeni ciprioți, cetățeni străini cu crept de ședere",x,Cipru
+Permisă intrarea/ieșirea transportatorilor, echipajelor de zbor, echipajelor feroviare, a echipajelor de nave și a celor de întreținere a drumurilor. ",3,Cehia
+CY,restricționat,restricționat,restricționat,"Zborurile din 28 de țări, printre care și România au fost interzise cu excepția celor cargo.  
+Permis accesul: diplomați, personal medical și aviatic, personal organizații internaționale, cetățeni ciprioți, cetățeni străini cu crept de ședere",2,Cipru
 HR,restricționat,,restricționat,"Permisă reîntoarcerea cetățenilor croați în țară și a cetățenilor UE în statele de rezidență
-Transportatori, diplomați, transportatori, lucrători transfrontalieri, ofițeri poliție, personal militar internațional și personalul organizaților internaționale.",,Croația
+Transportatori, diplomați, transportatori, lucrători transfrontalieri, ofițeri poliție, personal militar internațional și personalul organizaților internaționale.",2,Croația
 DK,închis,închis,închis,"Permisă intrarea cetățenilor danezi și a cețățenilor străini cu card de securitate socială, permis de ședere sau motiv întemeiat. 
 Permis tranzitul cu dovadă destinație ( nu e valabil pentru grupuri mari)
-Transportatori de mărfuri",,Danemarca
+Transportatori de mărfuri",3,Danemarca
 CH,restricționat,restricționat,restricționat,"Permisă intrarea cetățenilor elvețieni și a celor cu permis de ședere, a lucrătorilor transfrontalieri
 Permis tranzitul cu dovadă destinație
-Traansportatori de mărfuri",,Elveţia
-EE,închis,,închis,"Permisă intrarea cetățenilor estoni și a celor cu permis de rezidență sau drept de ședere.
+Traansportatori de mărfuri",2,Elveţia
+EE,închis,închis,închis,"Permisă intrarea cetățenilor estoni și a celor cu permis de rezidență sau drept de ședere.
 Permisă tranzitarea spre țara de origine a celor ce nu au simptom
 Diplomați și personal NATO fără simptome
-Transport mărfuri",,Estonia
+Transport mărfuri",3,Estonia
 RU,închis,închis,închis,"
 Permisă intrarea cetățenilor rușii, persoane în tranzit pe aeroporturi (care nu necesită viză)
 Diplomați, delegații oficiale, echipaje nave, aeronave, trenuri internațiionale 
-Transport mărfuri",,Federația Rusă
+Transport mărfuri",3,Federația Rusă
 FI,închis,închis,închis,"Permisă intrarea cetățenilor finlandezi și a celor cu permis de rezidență sau drept de ședere.
 Diplomați și personal NATO fără simptome
-Transport mărfuri, deplasări necesare sau în înteres de serviciu",,Finlanda
+Transport mărfuri, deplasări necesare sau în înteres de serviciu",3,Finlanda
 FR,închis,închis,închis,"Măsurile nu se aplică cetățenilor din UK, Islanda, Elveția, Liechtenstein și Teritoriile de Peste Mări, cetățenilor străini care au titlu de sejur pentru un stat UE și cetățenilor francezi care vor să se întoarcă în țară.
 Transport mărfuri
-Personal medical",,Franța
+Personal medical",3,Franța
 DE,restricționat,restricționat,restricționat,"Permis traficul de mărfuri 
 
 Tranzitul cetățenilor UE și cetățenilor statelor terțe către țara de domiciliu/ drept ședere.
 
 Trecerea frontierei se face doar în baza unor documente justficative.
 
- Nu este permis accesul cetățenilor din „regiunile de risc”, așa cum este regiunea Grand Est din Franța.",,Germania
+ Nu este permis accesul cetățenilor din „regiunile de risc”, așa cum este regiunea Grand Est din Franța.",2,Germania
 GR,restricționat,restricționat,restricționat,"Permis transportatori, diplomați, personal medical, rezidenți, cetățeni greci. 
-Granița cu Bulgaria este încă deschisă. ",,Grecia
-IE,deschis,deschis,,"Recomandată evitarea călătoriilor către Marea Britanie, cu excepția Irlandei de Nord, Cehia, Cipru, Danemarca, Malta, Polonia, Slovacia, Spania.",,Irlanda
-IS,deschis,deschis,,"Carantină pentru cei care sosesc din exterior, cu excepția echipajelor de pe avioanele de pasageri, transport mărfurri și cargoboturi",,Islanda
-IT,restricționat,restricționat,restricționat,"Transportul de mărfuri permis. Călătorii limitate la: urgențe, muncă, motive medicale",,Italia
+Granița cu Bulgaria este încă deschisă. ",2,Grecia
+IE,deschis,deschis,,"Recomandată evitarea călătoriilor către Marea Britanie, cu excepția Irlandei de Nord, Cehia, Cipru, Danemarca, Malta, Polonia, Slovacia, Spania.",1,Irlanda
+IS,deschis,deschis,,"Carantină pentru cei care sosesc din exterior, cu excepția echipajelor de pe avioanele de pasageri, transport mărfurri și cargoboturi",1,Islanda
+IT,restricționat,restricționat,restricționat,"Transportul de mărfuri permis. Călătorii limitate la: urgențe, muncă, motive medicale",2,Italia
 LV,închis,închis,închis,"Transportatori de marfă dacă nu prezintă simptome
 Pasageri ai aeronavelor de stat sau ai transporturilor militare
 Navigatorii care se întorc în Letonia sau către locul de muncă
-",,Letonia
-LI,0,0,restricționat,N/A,,Liechtenstein
+",3,Letonia
+LI,0,0,restricționat,N/A,2,Liechtenstein
 LT,închis,0,închis,"Transportatori de marfă 
 Acces permis persoanelor cu drept de ședere, diplomați, personal NATO
 Acces permis rezidenților
 Permisă tranzitarea pentru întoarcerea în țara de reședință până la 23.03.2020
-Doar tranzit feroviar fără oprire permis din 23.03.2020",,Lituania
+Doar tranzit feroviar fără oprire permis din 23.03.2020",3,Lituania
 LU,restricționat,0,restricționat,"Rezidenți, transportatori de mărfuri sau persoan
 Personal medical, cei care lucrează transfrontalier
 Diplomații, personalul organizațiilor internaționale
 Pasagerii în tranzit, cei care călătoresc pentru urgențe sau motive familiale justificate
-Cei care caută protecție internațională",,Luxemburg
-MK,închis,0,închis,"E interzisă intrarea în țară, dar cetățenii români se pot întoarce prin punctele de frontieră care nu au fost închise complet",,Macedonia de Nord
-MT,restricționat,restricționat,0,"Sunt suspendate cursele aeriene și navale de transport de pasageri dinspre și înspre: Italia, Franța, Germania, Elveția și Spania.",,Malta
-ME,închis,închis,închis,Transportatorii de mărfuri,,Muntenegru
+Cei care caută protecție internațională",2,Luxemburg
+MK,închis,0,închis,"E interzisă intrarea în țară, dar cetățenii români se pot întoarce prin punctele de frontieră care nu au fost închise complet",3,Macedonia de Nord
+MT,restricționat,restricționat,0,"Sunt suspendate cursele aeriene și navale de transport de pasageri dinspre și înspre: Italia, Franța, Germania, Elveția și Spania.",2,Malta
+ME,închis,închis,închis,Transportatorii de mărfuri,3,Muntenegru
 NO,închis,N/A,închis,"Aeroporturile sunt încă deschise pentru a permite cetățenilor străini să poată pleca. Toate granițele sunt închise pentru cetățenii străini. 
-Sunt menținute cursele aeriene interne",,Norvegia
+Sunt menținute cursele aeriene interne",3,Norvegia
 PL,închis,0,restricționat,"Transporturile de marfă
-Granița cu Germania este deschisă, dar pot intra doar polonezii sau rezidenții. ",,Polonia
-PT,închis,,închis,"Excepții de zbor pentru Canada, Statele Unite ale Americii, Venezuela și Africa de Sud.
+Granița cu Germania este deschisă, dar pot intra doar polonezii sau rezidenții. ",2,Polonia
+PT,închis,închis,închis,"Excepții de zbor pentru Canada, Statele Unite ale Americii, Venezuela și Africa de Sud.
 Navele de croazieră și iahturile pot acosta doar în cazuri justificate
-Transport de mărfuri, transport lucrători traansfrontalieri",,Portugalia
-GB,deschis,deschis,deschis,Guvernul a sfătuit cetățenii să nu călătorească decât dacă e esențial,,Regatul Unit al Marii Britanii şi Irlandei de Nord
+Transport de mărfuri, transport lucrători traansfrontalieri",3,Portugalia
+GB,deschis,deschis,deschis,Guvernul a sfătuit cetățenii să nu călătorească decât dacă e esențial,1,Regatul Unit al Marii Britanii şi Irlandei de Nord
 MD,închis,0,închis,"Permis tranzitul
 Transport de mărfuri
 Echipaje aeronave/nave/tren
-Diplomați, membri ai organizațiilor internaționale",,Republica Moldova
-RO,,,,,,România
-YF,închis,0,închis,Transport de mărfuri,,Serbia
+Diplomați, membri ai organizațiilor internaționale",3,Republica Moldova
+RO,restricționat,restricționar,restricționat,"Se poate intra în țară, însă tuturor persoanelor care provin din țări cu peste 500 de cazuri confirmate li se impune o carantină la domiciliu de 14 zile.",2,România
+YF,închis,0,închis,Transport de mărfuri,3,Serbia
 SK,închis,0,închis,"Cetățeni slovaci sau străini cu domiciliu/reședință temporară. 
-Transport de mărfuri",,Slovacia
+Transport de mărfuri",3,Slovacia
 SI,închis,,restricționat,"Aeronavele care transportă mărfuri/poștă, fără pasageri, sau zborurile străine sau aflate în misiuni umanitare.
-Cetățenii străini pot intra în Slovenia dacă prezintă un certificat COVID-19 valabil trei zile, emis de autoritățile sanitare italiene în italiană, engleză sau slovenă.",,Slovenia
-ES,,,restricționat,Numai cetățenii spanioli sau cei cu rezidența în Spania au voie să treacă frontiera în Spania.,,Spania
-SE,sporadic,,,HELP,,Suedia
-TR,,închis,închis,,,Turcia
-NL,,,,,,Regatul Ţărilor de Jos
-UA,,,,,,Ucraina
-HU,restrictionat,N/A,restrictionat,,,Ungaria
+Cetățenii străini pot intra în Slovenia dacă prezintă un certificat COVID-19 valabil trei zile, emis de autoritățile sanitare italiene în italiană, engleză sau slovenă.",2,Slovenia
+ES,restricționat,restricționat,închis,"Doar cetățenii spanioli sau cei cu reședința în Spania au dreptul să treacă frontiera. Lucrătorii transfrontalieri vor putea în continuare să intre, iar camionetelor care transportă bunuri li se va permite accesul fără să fie oprite.",2,Spania
+SE,,,,HELP,"exceptate de la regulile de intrare pe teritoriul suedez persoanele cu permis de ședere sau drept de ședere în Suedia, cetățenii unui alt stat SEE sau membrii de familie ai acestora, specialiștii din domeniul medical, transportatori și persoane care călătoresc din motive familiale imperative.",Suedia
+TR,sporadic,închis,închis,"Pot intra cetățenii greci și bulgari care au permis de ședere în Turcia
+Pot ieși/intra o singură dată cetățenii turci care au permis de ședere în Grecia sau Bulgaria",2,Turcia
+NL,restricționat,N/A,restricționat,"Accesul este interzis doar pentru cetățenii cetățenii din state-terțe (din afara statelor UE, inclusiv non-Schengen și Regatul Unit, Norvegia, Islanda, Elveția și Liechtenstein).",,Regatul Ţărilor de Jos
+UA,închis,închis,închis,"Pot intra doar cetățenii cu rezidență temporară
+Traficul de mărfuri sau traficul umanitar",3,Ucraina
+HU,închis,0,închis,Cetățenii unguri și străini care vor să ajungă acasă,3,Ungaria
